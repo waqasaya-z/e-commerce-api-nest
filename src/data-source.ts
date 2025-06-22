@@ -7,6 +7,6 @@ export const AppDataSource = new DataSource({
   username: 'waqasayaz',
   password: 'admin123',
   database: 'ecommerce-store',
-  entities: ['dist/**/*.entity.ts'],
-  migrations: ['dist/migrations/**/*.ts'],
+  entities: ['dist/**/*.entity.js'],
+  migrations: ['dist/**/*.entity.js'],
 });
